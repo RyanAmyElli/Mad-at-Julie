@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.venting-section {
+    background-color: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.venting-section h2 {
+    margin-top: 0;
+}
+
+.venting-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.venting-section li {
+    margin-bottom: 10px;
+}
+
+.venting-section textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.calm-down-section {
+    background-color: #c6f7d0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.calm-down-section h2 {
+    margin-top: 0;
+}
+
+#calm-down-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#calm-down-btn:hover {
+    background-color: #3e8e41;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
